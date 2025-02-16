@@ -7,6 +7,7 @@ import ServiceSection from "./components/Services.jsx";
 import Hero from "./components/Hero.jsx";
 import AboutUsSection from "./components/AboutUs.jsx";
 import TravelCardSection from "./components/FeaturedContent.jsx";
+import TestimonialSection from "./components/Testimonials.jsx";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <ServiceSection/>
       <AboutUsSection/>
       <TravelCardSection/>
+      <TestimonialSection/>
     </>
   );
 }
