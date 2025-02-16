@@ -63,12 +63,12 @@ const TestimonialSection = () => {
   };
 
   return (
-    <section className="py-12 bg-gray-100">
-      <div className="container mx-auto px-4">
+    <section className=" bg-gray-100">
+      <div className="container mx-auto ">
         <h2 className="text-3xl font-bold text-center mb-8">Testimonials</h2>
         <Slider {...settings}> {/* Use the Slider component */}
           {testimonials.map((testimonial, index) => (
-            <div key={index} className="px-4"> {/* Add padding for spacing */}
+            <div key={index} className="px-1"> {/* Add padding for spacing */}
               <div className="bg-white rounded-lg shadow-md p-8 text-center">
                 <p className="text-lg text-gray-700 leading-relaxed mb-4 italic">
                   "{testimonial.quote}"
