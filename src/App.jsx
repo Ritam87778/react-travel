@@ -6,6 +6,7 @@ import Navbar from "../src/components/Navbar.jsx";
 import ServiceSection from "./components/Services.jsx";
 import Hero from "./components/Hero.jsx";
 import AboutUsSection from "./components/AboutUs.jsx";
+import TravelCardSection from "./components/FeaturedContent.jsx";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Hero/>
       <ServiceSection/>
       <AboutUsSection/>
+      <TravelCardSection/>
     </>
   );
 }
