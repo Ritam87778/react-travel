@@ -29,7 +29,10 @@ const ServiceSection = () => {
   return (
     <section className="py-12 bg-gray-100">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-8">Our Services</h2>
+        {/* <h2 className="text-3xl font-bold text-center mb-8">Our Services</h2> */}
+        <h1 className='text-2xl sm:text-4xl text-center font-bold mb-2'>About <span className='underline underline-offset-4 decoration-1 under font-light'>Our Services</span></h1>
+        <p className='text-center text-gray-500 mb-12 max-w-80 mx-auto'>Ready to Make a Move? Let’s Build Your Future Together</p>
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <div key={index} className="bg-white rounded-lg shadow-md p-6 ">

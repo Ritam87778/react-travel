@@ -32,7 +32,10 @@ const TravelCardSection = () => {
   return (
     <section className="py-12 bg-gray-100">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-8">Explore Destinations</h2>
+        {/* <h2 className="text-3xl font-bold text-center mb-8">Explore Destinations</h2> */}
+        <h1 className='text-2xl sm:text-4xl text-center font-bold mb-2'>Explore <span className='underline underline-offset-4 decoration-1 under font-light'>Destinations</span></h1>
+        <p className='text-center text-gray-500 mb-12 max-w-80 mx-auto'>Ready to Make a Move? Let’s Build Your Future Together</p>
+       
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"> {/* Responsive grid */}
           {travelCards.map((card, index) => (
             <a key={index} href={card.link} className="block relative h-0 pb-[100%] rounded-lg overflow-hidden shadow-md transition duration-300 hover:scale-105"> {/* Square aspect ratio */}

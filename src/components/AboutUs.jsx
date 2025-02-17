@@ -13,7 +13,9 @@ const AboutUsSection = () => {
             />
           </div>
           <div>
-            <h2 className="text-3xl font-bold mb-4">About Us</h2>
+            {/* <h2 className="text-3xl font-bold mb-4">About Us</h2> */}
+        <h1 className='text-2xl sm:text-4xl text-center font-bold mb-8'>About <span className='underline underline-offset-4 decoration-1 under font-light'>Our Brand</span></h1>
+
             <p className="text-gray-700 leading-relaxed mb-6">
               We are a team of passionate travelers dedicated to creating unforgettable travel experiences. Our mission is to inspire and empower people to explore the world, discover new cultures, and create lasting memories. We believe that travel has the power to transform lives, and we are committed to making travel accessible and enjoyable for everyone.
             </p>
